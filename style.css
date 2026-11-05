@@ -1,0 +1,13 @@
+:root{--paper:#F5E9D8;--ink:#2b2622;--mute:#7a6e62;--line:#d9c9b2;--seal:#b0302a}
+@media (prefers-color-scheme:dark){:root{--paper:#1d1a17;--ink:#ece3d6;--mute:#a59886;--line:#3a332c;--seal:#d0574f}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.9 "Noto Serif TC","PMingLiU",serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px 64px}a{color:var(--seal)}.mute{color:var(--mute)}
+.crumb{color:var(--mute);font-size:14px;margin:0}h1{font-size:34px;line-height:1.4;margin:16px 0;letter-spacing:.08em}
+h1 small{display:block;font-size:15px;color:var(--mute);letter-spacing:.2em}
+h2{font-size:18px;border-left:4px solid var(--seal);padding-left:10px;margin-top:40px}
+.answer{font-size:19px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 0}
+.video{max-width:300px;aspect-ratio:9/16;margin:24px auto}.video iframe{width:100%;height:100%;border:0}
+.yuan{letter-spacing:.06em}details{border-bottom:1px solid var(--line);padding:8px 0}summary{cursor:pointer;font-weight:bold}
+nav{display:flex;justify-content:space-between;margin-top:48px}footer{margin-top:32px;color:var(--mute);font-size:13px}
+.toc{list-style:none;padding:0}.toc li{border-bottom:1px solid var(--line)}.toc a{display:block;padding:12px 0;color:var(--ink);text-decoration:none}
+.toc b{color:var(--seal);margin-right:16px;font-weight:normal}
